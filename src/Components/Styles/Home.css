@@ -1,0 +1,77 @@
+
+.Home{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.MainPhoto{
+    position: relative;
+
+}
+.Home>div>img {
+    width: 65%;
+}
+.MainPhoto>svg {
+    fill: red;
+    position: absolute;
+    top: 200px;
+    left: 365px;
+
+
+}
+.varPhotos{
+    
+    display: flex;
+
+}
+.varPhotos>img {
+    width: 15%;
+}
+.details{
+    text-align: left;
+}
+.selectedImage{
+    border-color: black;
+    border-style: solid;
+    border-radius: 25px;
+}
+.featButtonDefault {
+    background-color:bisque; 
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.featButtons {
+    background-color: burlywood; 
+    border: none;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.MainPhoto>h3 {
+    font-size: 45px;
+    color: aliceblue;
+    position: absolute;
+    top: 175px;
+    left: 360px;
+
+
+}
+.MainPhoto>h2 {
+    font-size: 35px;
+    color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 385px;
+
+
+}
